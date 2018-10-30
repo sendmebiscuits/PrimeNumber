@@ -15,7 +15,7 @@ def is_prime(num):
 
 
 def find_prime(n):
-    prime_count = 0
+    prime_count = 1
     for current in range(1, 10001):
         if is_prime(current):
             prime_count += 1
@@ -28,4 +28,4 @@ def find_prime(n):
 
 
 # print(is_prime(8))
-print(find_prime(7))
+print(find_prime(8))
